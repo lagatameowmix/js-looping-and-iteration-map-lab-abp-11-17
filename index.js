@@ -14,7 +14,7 @@ function nameToAttributes(array){
 }
 
 function attributesToPhrase(array){
-  return array.map(function(name, hometown){
+  return array.map(function(name){
     return {name.toString + ` is from ` + hometown.toString}
   })
   //"<NAME OF DRIVER> is from <HOMETOWN>"
